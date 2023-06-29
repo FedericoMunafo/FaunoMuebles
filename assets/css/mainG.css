@@ -1237,7 +1237,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/arrow.svg");
+			background-image: url("images/arrow2.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 5em;
@@ -1330,30 +1330,49 @@ input, select, textarea {
 			opacity: 1.0 !important;
 		}
 
-		@media screen and (max-width: 980px) {
-
+		@media screen and (max-width: 1680px) {
 			.poptrox-popup .closer {
-				background-size: 3em;
+				background-size: 1em;
+				
 			}
 
 			.poptrox-popup .nav-previous,
 			.poptrox-popup .nav-next {
-				background-size: 4em;
+				background-size: 2em;
+				
 			}
+		}
+		@media screen and (max-width: 980px) {
+			
+			.poptrox-popup .closer {
+				background-size: 1em;
+				
+			}
+
+			.poptrox-popup .nav-previous,
+			.poptrox-popup .nav-next {
+				background-size: 2em;
+				
+			}
+			
 
 		}
 
 		@media screen and (max-width: 736px) {
 			
 			.poptrox-popup .closer {
-				background-size: 3em;
+				background-size: 1em;
+				
+				
 			}
 
 			.poptrox-popup .nav-previous,
 			.poptrox-popup .nav-next {
-				background-size: 4em;
+				
+				background-size: 1em;
+				
 			}
-
+			
 
 		}
 
